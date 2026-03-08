@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pycache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Training artifacts / outputs
+outputs/
+checkpoints/
+*.pth
+*.pt
+*.npz
+*.log
+
+# Large raw data
+*.zip
+*.fasta
+*.fa
+*.fna
+*.gff3
+
+# Notebook duplicates / temporary
+* copy*.ipynb
+Copy of *.ipynb
+* (1).ipynb
+
+# Keep src code tracked
+!src/
+!src/*.py
